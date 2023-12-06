@@ -11,7 +11,7 @@ const Home = async ()=> {
     <>
     <h1 className=' font-bold text-4xl ml-10 mt-10'>Top News</h1>
     <main className="flex flex-wrap">
-      {news.map((article,i)=>(
+      {news?.map((article,i)=>(
         <Article article = {article}/>
       ))}
     </main>
